@@ -22,15 +22,17 @@
       
       /*Style the top navigation*/
       .topnav {
+      
         overflow: hidden;
         background-color: #333;
       }
       
-      .topnav a {
+      .topnav {
+      	width: 100%
         float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
+        color: #ffffff;
+        text-align: left;
+        padding: 0px 16px;
         text-decoration: none;
         font-size: 17px;
       }
@@ -50,7 +52,7 @@
       .sidenav {
         height: 100%;
         width: 200px;
-        position: fixed;
+        /*position: fixed;*/
         z-index: 2;
         top: 0;
         left: 0;
@@ -75,6 +77,7 @@
 
       /* Style the content */
       .content {
+      	top: 0;
         margin-left: 200px;
         padding-left: 20px;
       }
@@ -82,23 +85,22 @@
   </head>
   
   <body>
-    /*Top navigation*/
     <div class="topnav">
       <h1>More than an order of words...</h1>
+      
     </div>  
 
-    <div class="sidenav">
-      <a href="#">Tutorials</a>
-      <a href="#">Essays</a>
-      <a href="#">About</a>
-    </div>
+      <div class="sidenav">
+        <a href="#">Tutorials</a>
+        <a href="#">Essays</a>
+        <a href="#">About</a>
+      </div>
 
     <div class="content">
-      <h2>A heading.</h2>
-      <p> A paragraph. </p>
+      	<h2>A headifasng.</h2>
+		<p> A paragraph. </p>
     </div>
 
   </body>
 </html>
-
 
